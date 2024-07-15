@@ -1,3 +1,4 @@
+
 def mcculloch_pitts_neuron(inputs, weights, bias, threshold):
     """
     McCulloch-Pitts model of a neuron.
@@ -25,7 +26,7 @@ def mcculloch_pitts_neuron(inputs, weights, bias, threshold):
 
 # Example usage:
 inputs = [1, 0, 1]  # Example binary inputs
-weights = [0.5, -0.3, 0.8]  # Example weights
+weights = [0.6, -0.4, 0.8]  # Example weights
 bias = 0.2  # Example bias term
 threshold = 0.5  # Example threshold
 
